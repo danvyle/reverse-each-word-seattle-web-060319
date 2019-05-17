@@ -1,6 +1,13 @@
-def change_nums(num)
-new_num = num.split(" ").collect do |x| 
+def reverse_each_word(sentence)
+reversed_sentence = sentence.split(" ").collect do |x| 
     x.reverse
    end
-    new_num.join(" ")
+    reversed_sentence.join(" ")
 end
+
+# def reverse_each_word(sentence)
+#   reversed = sentence.split(" ").collect do |word|
+#   word.reverse
+# end
+#   reversed.join(" ")
+# end
